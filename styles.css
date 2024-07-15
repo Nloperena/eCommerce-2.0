@@ -460,6 +460,14 @@ select {
   color: #7342d6;
 }
 
+.books_loading--spinner {
+  display: none !important;
+}
+
+.books__loading .books_loading--spinner {
+  display: block !important;
+}
+
 .fa-spinner {
   animation: rotate 600ms infinite linear;
 }
